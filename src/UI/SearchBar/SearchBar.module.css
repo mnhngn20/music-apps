@@ -1,0 +1,83 @@
+.searchBar {
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+}
+
+.inputBar {
+    height: 30px;
+    width: fit-content;
+    display: flex;
+    flex-flow: row;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    transition: background-color 1s ease-out;
+    margin-top: 10px;
+
+}
+
+.inputBar_show{
+    background-color: var(--color1);
+}
+
+.inputBar_hide{
+    background-color: var(--color3);
+    margin-top: 0px;
+}
+
+.inputBar__icon__container{
+    height: 15px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.inputBar__icon__container i {
+    display: flex;
+    align-items: center;
+}
+
+.inputBar__icon {
+    color: rgb(122, 120, 120);
+}
+
+.inputBar__search {
+    border: none;
+    height: 50%;
+    background: none;
+    color: black;
+    float: left;
+    transition: width 0.3s ease-out;
+    outline: none
+}
+
+.inputBar__search_show{
+    width: 240px;
+    padding: 0px 0px 0px 10px;
+}
+
+.inputBar__search_hide{
+    width: 0px;
+    padding: 0px 0px;
+}
+
+.inputBar__items{
+    width: 100%;
+    height: fit-content;
+    margin-top: 10px;
+    display: block;
+}
+
+.inputBar__items_hide{
+    display: none;
+}
+
+.inputBar__items_show{
+    display: block;
+}
+
+

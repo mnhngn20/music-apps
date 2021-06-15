@@ -1,0 +1,93 @@
+.track{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vh 2vw;
+    overflow-y: scroll;
+    background-color: var(--color1);
+}
+
+.track a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+.track a:hover{
+    font-weight: 700;
+
+}
+
+.track__main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.track__img{
+    width: 250px;
+    height: auto;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0,0.5);
+}
+
+.track__name{
+    height: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.track__play{
+    background-color: var(--color3);
+    opacity: 0.8;
+}
+
+.track__playing{
+    background-color: var(--color1);
+    color: black !important;
+    opacity: 1;
+}
+
+.track__more{
+    background-color: var(--color4);
+
+}
+
+.showInfo{
+    visibility: visible;
+    opacity: 1;
+}
+
+.hideInfo{
+    visibility: none;
+    opacity: 0;
+}
+
+table{
+    margin-top: 4vh;
+    width: 90vw;
+    text-align: left;
+    vertical-align: top;
+}
+
+tr{
+    width: 100%;
+    height: fit-content;
+}
+
+th{
+    width: 35vw;
+    height: 5vh;
+    background-color: var(--color3);
+    padding: 0px 4vw;
+}
+
+td{
+    height: 5vh;
+    background-color: var(--color2);
+    padding: 0px 4vw;
+}

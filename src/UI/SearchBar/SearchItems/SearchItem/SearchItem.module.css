@@ -1,0 +1,84 @@
+.itemContainer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-top: 0.1px solid var(--color2);
+    padding: 0px 5px;
+}
+
+.itemContainer:hover{
+    background-color: var(--color2);
+}
+
+.searchItem{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+.searchItem__info{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    flex-direction: column;
+    width: 11.5em;
+}
+
+.searchItem__title{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 0;
+}
+
+.searchItem__artist{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; 
+    font-size: 13px;
+    margin: 0 0;
+}
+
+.searchItem__artist a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.searchItem__artist a:hover{
+    color: black;
+}
+
+.searchItem__info__bottom{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchItem__info__bottom__vp{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+.searchItem__info__bottom__view{
+    font-size: 12px;
+    margin: 0 0;
+}
+
+.headset{
+    z-index: 150;
+}
+
+.searchItem img{
+    height: 70px;
+    width: 70px;
+}

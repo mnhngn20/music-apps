@@ -1,0 +1,10 @@
+export const PLAY_OR_PAUSE_AUDIO = 'PLAY_OR_PAUSE_AUDIO';
+export const PLAY_AUDIO = 'PLAY_AUDIO';
+export const STOP_AUDIO = 'STOP_AUDIO';
+export const MUTE = 'MUTE';
+export const ADJUST_VOLUME = 'ADJUST_VOLUME';
+export const UPDATE_PLAYLIST_SEARCH = 'UPDATE_PLAYLIST_SEARCH';
+export const STREAM_SUCCESS = 'STREAM_SUCCESS';
+export const STREAM_START = 'STREAM_START';
+export const STREAM_FAIL = 'STREAM_FAIL';
+

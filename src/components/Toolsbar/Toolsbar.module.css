@@ -1,0 +1,47 @@
+.toolsbar {
+    position: fixed;
+    top: 0;
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color3);
+    opacity: 0.8;
+    z-index: 5;
+}
+
+.toolsbar__logo {
+    width: fit-content;
+    height: 100%;    
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.toolsbar__logo img {
+    height: 30px;
+    width: 30px;
+}
+
+.toolsbar__searchBar {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.toolsbar__searchBar img{
+    height: 30px;
+    height: 30px;
+}
+
+.toolsbar__searchBar__container{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}

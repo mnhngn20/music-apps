@@ -1,0 +1,39 @@
+.sideDrawer{
+    position: fixed;
+    background-color: var(--color1);
+    width: 56vw;
+    height: 100vh;
+    z-index: 100;
+    transition: transform 0.3s ease-out;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hide{
+    transform: translateX(-100%);
+}
+
+.show{
+    transform: translateX(0);
+}
+
+.sideDrawer img{
+    width: 100px;
+    height: auto;
+}
+
+.Logo{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.Logo p{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0;
+}

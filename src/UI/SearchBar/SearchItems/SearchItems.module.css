@@ -1,0 +1,14 @@
+.searchItems{
+    position: absolute;
+    width: 100%;
+    background-color: var(--color1);
+    max-height: 400px;
+    overflow-y: auto;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.searchItems a{
+    text-decoration: none;
+    color: black;
+}

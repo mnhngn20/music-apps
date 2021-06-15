@@ -1,0 +1,37 @@
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 150;
+    background-color: var(--color1);
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vw 5vh;
+    transition: transform 0.4s ease-in-out;
+}
+
+.hide{
+    transform: translate(-50%,-500%);
+}
+
+.show{
+    transform: translate(-50%, -50%);
+}
+
+.noPreview{
+    width: 70vw;
+    height: 20vh;
+}
+
+.noPreviewIcon{
+    color: var(--color4)
+}
+
+.modal p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
